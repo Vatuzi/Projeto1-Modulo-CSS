@@ -1,0 +1,254 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+section h2,
+section h3,
+#menu h2,
+form button{
+    font-family: 'Gluten', cursive;
+}
+
+body{
+    font-family: 'Courgette', cursive;
+    
+}
+
+header{
+    height: 200px;
+    background-color:  rgb(212, 245, 201);
+}
+
+#topo{
+    text-align: center;
+}
+#topo img{
+    margin-top: 10px;
+    height: 180px;
+}
+
+.container{
+    display: flex;   
+    padding: 10px 0;
+}
+
+#menu{
+    width: 200px;
+    margin-right: 10px;
+    background-color:  rgb(212, 245, 201);
+    padding: 0 10px;
+}
+
+#conteudo{
+    width: 850px;
+    margin-right: 10px;
+    background-color:   rgb(212, 245, 201);
+}
+
+#lado{
+    width: 300px;
+    background-color:  rgb(212, 245, 201);
+}
+
+footer{
+    height: 70px;     
+    text-align: center;
+    background-color:  rgb(212, 245, 201);
+}
+
+.rodape p{
+    padding-top: 20px;
+}
+
+/*Personalização lado esquerdo*/
+
+#menu li{
+    text-align: left;
+    margin-left: 15px;
+    margin-bottom: 5px; 
+    list-style-type: none;
+    font-size: 18px;    
+}
+
+#menu li a{
+    color:rgb(7, 4, 0);
+}
+
+#midias img{
+    height: 50px; 
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+
+#midias li{
+    display: inline;
+    align-items: left;
+    justify-content: space-between; 
+}
+
+#tituloMenu img, #tituloConteudo img{
+    width: 150px;
+}
+
+#tituloMenu{
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+/*Personalizaçao meio*/
+
+#tituloConteudo img{
+    margin-bottom: 0px;
+    margin-left: 300px;
+}
+
+#tituloConteudo {
+    margin-top: 35px;
+    margin-bottom: 30px;
+}
+
+#rune3 h2{
+    text-align: center;
+}
+
+.review img{
+    margin-left: 260px;
+}
+
+#rune3{
+    margin-top: 30px;
+    margin-right: 50px;
+}
+
+section p{
+    font-size: 18px;
+    text-align: justify;
+}
+.review p{
+    margin-left: 40px;
+}
+
+#rune3 p{
+    margin-bottom: 10px;
+}
+
+#Personagens li {
+    display: flex;
+    justify-content: space-between;
+    vertical-align: center;    
+}
+
+.gosta{
+        color: rgb(2, 128, 8);    
+}
+.odeia{
+    color: rgb(185, 6, 6);    
+}
+
+#Personagens li p{
+    margin-top: 30px;
+}
+#Personagens{
+    align-items: flex-start;
+}
+
+#Personagens p{
+    margin-left: 25px;
+    margin-bottom: 100px;
+}
+
+#duvidas form input,
+#duvidas form textarea
+{
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+#duvidas form{
+    margin-bottom: 15px;
+}
+
+#duvidas .container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+}
+#duvidas .container img{
+    width: 270px;
+}
+
+/*Personalização lado direito*/
+
+#login {
+    background-image: url("/imagens/login.png");
+    background-size: 290px 205px;
+    background-repeat: no-repeat;
+}
+#login form{    
+    padding: 80px 0;
+    margin-left: 30px;    
+}
+#login p{    
+    margin-bottom: 10px;    
+}
+
+form button{
+    background-color: rgb(200, 200, 201);
+    color: rgb(12, 12, 12);
+    width: 120px;
+    cursor: pointer;
+    padding: 3px;
+    margin-left: 60px;
+    margin-top: 5px;
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+#controleRosa img{
+    height: 250px;      
+    margin-left: 30px;
+}
+
+#populares,#tituloEsquerdo{
+    text-align: center;
+    
+}
+
+#tituloEsquerdo img{
+    width: 150px;
+}
+
+#ass {
+    height: 145px; 
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+#diablo {
+    height: 145px; 
+}
+
+#zelda {
+    height: 130px; 
+}
+
+#street {
+    height: 100px; 
+}
+
+#life {
+    height: 90px; 
+}
+
+#sky {
+    height: 100px; 
+}
+
+
+
+
